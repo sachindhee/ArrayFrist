@@ -24,6 +24,12 @@ public class StreamePart2 {
         System.out.println(collect1);
 
 
+        List<Integer> list2 = Arrays.asList(1,3,4,5,7,8,90,4,2,5,6,3,42,5,6,7);
+        List<Integer> collect2 = list2.stream().distinct().filter(x -> x%2==0).sorted((a,d) -> (d-a))
+                .collect(Collectors.toList());
+        System.out.println(collect2);
+
+
 
     }
 }
