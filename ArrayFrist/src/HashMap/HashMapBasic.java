@@ -17,6 +17,7 @@ public class HashMapBasic {
         System.out.println(map.containsKey(101));
         System.out.println(map.containsValue("karan"));
         System.out.println(map.isEmpty());
+        System.out.println(map.getOrDefault(103,"sachin"));
 
 
 
